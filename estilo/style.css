@@ -271,3 +271,47 @@ CSS ÁREAS ESPECÍFICAS
 .projectfilters li:first-child {
     border-left: 0;
 }
+
+.sectionprojects-photos{
+    width: 100%;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.projectsphoto{
+    width: 280px;
+
+}
+.projectsphoto .photoarea{
+    margin:10px;
+    width: 260px;
+    height: 160px;
+}
+
+.photoarea img{
+    width: inherit;
+    height: inherit;
+}
+.photoarea > .photoinfo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    color:white
+}
+.photoinfo h5{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.projectsphoto .photoarea:hover .photoinfo {
+    display: flex;
+}

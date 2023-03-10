@@ -64,6 +64,7 @@ nav {
 .menu > nav > a:hover {
     border-bottom: 5px solid  #b28756;
     color:rgba(185, 184, 184, 0.548);
+    transition: .5s;
 }
 
 .button{
@@ -266,6 +267,7 @@ CSS ÁREAS ESPECÍFICAS
 }
 .projectfilters li:hover {
     border-bottom: 3px solid #b28756;
+    transition: .5s;
 
 }
 .projectfilters li:first-child {
@@ -296,7 +298,7 @@ CSS ÁREAS ESPECÍFICAS
     width: inherit;
     height: inherit;
 }
-.photoarea > .photoinfo{
+.photoarea .photoinfo{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
     width: inherit;
@@ -305,7 +307,9 @@ CSS ÁREAS ESPECÍFICAS
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    color:white
+    color:white;
+  
+
 }
 .photoinfo h5{
     font-size: 1.2em;
@@ -313,5 +317,181 @@ CSS ÁREAS ESPECÍFICAS
 }
 
 .projectsphoto .photoarea:hover .photoinfo {
+    display: flex;   
+    
+}
+
+.bgteam{
+    background-image: url(imagens/complementos/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+.areateam{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.sectionteam{
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+.sectionteam .sliders{
+    width: 1000vw;
+    height: 100%;
+}
+.sectionteam .slide{
+    width: 280px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.slidearea{
     display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+.areateam .slidepointers{
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.areateam .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.areateam .pointer.active{
+    background-color: #b28756;
+}
+
+.avatar{
+    width: 150px;
+    height: auto;
+    margin-top: 15px;
+}
+.teamname{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-top: 30px;
+}
+.teamrole{
+    font-size: 1em;
+    color:#999;
+    margin-top: 5px;
+}
+.teamsocial{
+    display: flex;
+    margin-top: 10px;
+
+}
+.teamsocial a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 13px;
+    margin-right: 10px;
+
+}
+
+.teamsocial a:hover{
+    background-color: #b28756;
+    transition: .5s;
+}
+
+.sectionbodycliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1140px;
+    
+
+
+
+
+    /*display: flex;
+    align-items: center;
+    max-width: 1140px;
+    height: auto;
+    margin:auto;*/
+}
+
+.sectionclientes{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+.sectionavatarcliente{
+    width: 150px;
+    height: auto;
+    margin-top: 15px;
+}
+.namecliente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-top: 30px;
+}
+.rolecliente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7em;
+    color:#999;
+    margin-top: 5px;
+}
+.aspasico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.descliente{
+    font-size: 1em;
+    line-height: 25px;
+}
+
+
+
+
+.sectionbodycliente .pointer{
+  
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.sectionbodycliente .pointer.active{
+    background-color: #b28756;
 }

@@ -490,7 +490,7 @@ CSS ÁREAS ESPECÍFICAS
     border-radius: 8px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: 15px;
+    margin-top: 30px;
     cursor: pointer;
 
 }
@@ -498,3 +498,164 @@ CSS ÁREAS ESPECÍFICAS
     background-color: #b28756;
 }
 
+.section-companies{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.sectioncompaniesarea{
+    display: flex;
+    align-items: center;
+}
+
+.company{
+    flex: 1;
+    text-align: center;
+}
+
+.sectionprice{
+    display: flex;
+}
+.priceitem{
+    flex:1;
+    background-color: #fff;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.priceitem:last-child{
+    margin-right: 0;
+}
+
+.pricename{
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.pricemoney{
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-top: 10px;
+}
+.priceperiod{
+    color:#999;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 0.7em;
+}
+.pricepoint{
+    font-size:.8em ;
+}
+
+.buttondark:hover{
+    background-color: #333;
+    transition: .5s;
+}
+.premium{
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+.premium .sectionbody{
+    max-width: initial;
+}
+.sectionpremium{
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    border-bottom: 1px solid #ccc;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.sectionpremium-left{
+    flex: 1;
+    text-align: right;
+}
+.sectionpremium-left img{
+    width: 380px;
+    margin-right: 40px;
+}
+.sectionpremium-rigth{
+    flex: 1;
+}
+.premiumitem{
+    display: flex;
+    margin-bottom: 20px
+}
+.premiumitem img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px
+}
+.premiumitem div{
+    flex: 1;
+    color: #999;
+    line-height: 20px;
+    
+    font-size: 1em;
+}
+.premiumitem > div > h4{
+    color:black;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sectionpremium .slidepointers{
+    position: absolute;
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    
+}
+.sectionpremium .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+.sectionpremium .pointer.active{
+    background-color: #b28756;
+}
+.buttonpremium{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+}
+.sectionsome{
+    display: flex;
+}
+.section-some{
+    flex:1;
+    text-align: center;
+    padding: 15px;
+}
+
+.section-some h3{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color:#b28756
+}
+.section-some .traço {
+    background-color: #999;
+    width: 5px;
+    height: 2px;
+    
+}
+.section-some h4{
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.section-some p{
+    font-size: 0.9em;
+    color:#999;
+}

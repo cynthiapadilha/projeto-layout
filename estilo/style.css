@@ -641,13 +641,15 @@ CSS ÁREAS ESPECÍFICAS
 
 .section-some h3{
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 2.5em;
     color:#b28756
 }
 .section-some .traço {
     background-color: #999;
-    width: 5px;
-    height: 2px;
+    width: 20px;
+    height: 4px;
+    margin: auto;
+    margin-top: 10px;
     
 }
 .section-some h4{
@@ -659,3 +661,88 @@ CSS ÁREAS ESPECÍFICAS
     font-size: 0.9em;
     color:#999;
 }
+
+.section-tell{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;   
+}
+
+.sectiontellabout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;  
+}
+
+.tellabout{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color:#999;
+    margin: 15px;
+    margin-bottom: 25px;
+   
+}
+.frase{
+    margin: 15px;
+    font-weight: 600;
+}
+.sectiontellabout .p{
+    color:#999;
+    margin-right: 20px;
+    font-size: .7em;
+    font-weight: 600;
+    
+}
+.tellabout1{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(104, 192, 233);
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.tellabout2{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 60, 87);
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.tellabout3{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 59, 143);
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.tellabout4{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 63, 63);
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.tellabout5{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 0, 0);
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+

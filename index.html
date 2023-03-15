@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Layout</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/mediaquery.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
       </style>
@@ -517,28 +518,94 @@
             </div>
         </section>
 
-        <section class="default ligth contactus">
+        <section class="default ligth">
             <div class="sectiontitle">Contact Us</div>
             <div class="sectiondesc">our agency located in melbourne, australia</div>
             <div class="sectionbodycontactus">
                 <div class="sectioncontactus">
-                    <form action="" method="get">
-                        
+                    <form action="pagina.php" method="post">
+                            <label for="inome">
+                                <input type="text" name="nome" id="inome" placeholder="NAME">
+                            </label>
+                            <label for="iemail">
+                                <input type="email" name="email" id="iemail" placeholder="EMAIL">
+                            </label>
+                        <label for="isubject">
+                            <input type="text" name="subject" id="isubject" placeholder="SUBJECT">
+                        </label>
+                        <label for="imessage">
+                            <textarea name="message" id="imessage" placeholder="MESSAGE" cols="30" rows="10"></textarea>
+                            
+                            <a href="#" class="button">Send Message</a>
                     </form>
-                    
-                        <a href="#" class="button">More Projects</a>
-                    
                 </div>
-                
             </div> 
-                
             </div>
         </section>
 
-
+        <section class="sectionmap">
+            <div class="sectionmaparea">
+               
+                    <div class="sectionmapinfo">
+                        <div class="sectionmapinfoitem">
+                            <div class="sectionmapitemimg">
+                                <img src="estilo/imagens/icones/carta.png" alt="">
+                            </div>
+                            PO Box 16122 Collins street West Victoria 8007 Australia
+                        </div>
+                        <div class="sectionmapinfoitem">
+                            <div class="sectionmapitemimg">
+                                <img src="estilo/imagens/icones/localizacao.png" alt="">
+                            </div>
+                           121 Kimg Street, Melbourne Victoria 3000 Australia
+                        </div>
+                        <div class="sectionmapinfoitem">
+                            <div class="sectionmapitemimg">
+                                <img src="estilo/imagens/icones/telefone.png" alt="">
+                            </div>
+                            +00 0 1234 5678
+                        </div>
+                        <div class="sectionmapinfoitem">
+                            <div class="sectionmapitemimg">
+                                <img src="estilo/imagens/icones/arroba.png" alt="">
+                            </div>
+                            algumemail@gmail.com
+                        </div>
+                        <div class="sectionmapinfoitem">
+                            <div class="sectionmapitemimg">
+                                <img src="estilo/imagens/icones/web.png" alt="">
+                            </div>
+                            www.algumsite.com
+                        </div>
+                    </div>
+            </div>
+        </section>
     </main>
+ 
     <footer>
-
+        <div class="areafooter">
+            <div class="footeritemarea1">
+                <div class="footer-social">
+                    <a href="#"><img src="estilo/imagens/icones/twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="estilo/imagens/icones/linkedin.png" alt="linkedin"></a>
+                    <a href="#"><img src="estilo/imagens/icones/facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="estilo/imagens/icones/googleplus.png" alt="googleplus"></a>
+                    <a href="#"><img src="estilo/imagens/icones/pinterest.png" alt="pinterest"></a>
+                </div>
+            </div>
+            <div class="footeritemarea2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor expedita amet earum doloribus, commodi, eos rerum odit impedit eius tempora nobis cumque sed, explicabo voluptatibus? Exercitationem in autem sed sit!
+            </div>
+            <div class="footeritemarea3">
+                <form action="pagina.php" method="post">
+                    <label for="iemail">
+                        <input type="email" name="email" id="iemail" placeholder="EMAIL TO SUBSCRIBE" >
+                    </label>
+                    <a href="#" class="button">Subscribe</a>
+                </form>
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>

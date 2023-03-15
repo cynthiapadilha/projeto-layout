@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media (min-width:450px) and (max-width:800px) {
+    nav {
+        position:absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0,0.8);
+        width: 70vw;
+        height: calc(100vh-100px);
+        top: 100px;
+        right: 0;
+
+    }
+    
+}

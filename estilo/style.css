@@ -1,6 +1,7 @@
 /*
 Cor base: #b28756
 */
+@charset "UTF-8";
 
 *{
     font-family: 'Montserrat', sans-serif;
@@ -746,42 +747,149 @@ CSS ÁREAS ESPECÍFICAS
     border-radius: 15px;
 }
 
-.sectionbodycontactus{
-    max-width: initial;
-}
-
 .sectioncontactus{
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+    
+}
+form > label>  input[type=text],
+form > label>  input[type=email],
+form > label > textarea{
+   display: block;
+   width: 100%;
+   height: 40px;
+   border: 0;
+   background: transparent;
+   border-bottom: 1px solid #ccc;
+   outline: 0;
+   margin-top: 10px;
+   
+}
+form > label > textarea{
+    height: 100px;
+    resize: none;
+} 
+#inome,
+#iemail{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color:black;
-    
-    height: auto;
-    
+ 
+}
+#inome,
+#iemail input:first-child{
+    margin-right: 20px;
+   
 }
 
 
 
+.sectionmap{
+    background-image: url(imagens/complementos/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sectionmaparea{
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+.sectionmapinfo{
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+    color: black;
 
+}
+.sectionmapinfoitem{
+    display: flex;
+    align-items: center;
+    color:#999;
+    margin-bottom: 10px;
+}
 
-
-
-
-.sectionbodycliente .pointer{
+.sectionmapitemimg{
+    width: 30px;
+    height: 30px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
+    background-color: #999;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.sectionmapitemimg img{
     width: 15px;
-    height: 15px;
-    border: 2px solid #b28756;
-    border-radius: 8px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 30px;
-    cursor: pointer;
+    height: auto;
+}  
+
+
+
+
+footer{
+  
+    background-color: black;
+}
+
+.areafooter{
+    width: 100vw;
+    max-width:1140px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    background-color: black;
+   
+}
+ 
+.footeritemarea1{
+    flex:1;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    
+}
+.footeritemarea2{
+    flex:1;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    color:#999;
+    margin-right: 30px;
+}
+.footeritemarea3{
+    flex:1;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+    width: 20px;
+    height: 200px;
+   
+}
+
+.footer-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #333;
+    border-radius: 13px;
+    margin-right: 10px;
 
 }
-.sectionbodycliente .pointer.active{
+
+.footer-social a:hover{
     background-color: #b28756;
+    transition: .3s;
 }
+
+
+
+
+
+
+

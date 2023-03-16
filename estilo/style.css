@@ -38,6 +38,11 @@ header{
     background-color: #b28756;
     border-radius: 40px;
 }
+.menuopen{
+    width: 40px;
+    margin-right: 30px;
+    display: none;
+}
 
 .menu{
     flex: 1;

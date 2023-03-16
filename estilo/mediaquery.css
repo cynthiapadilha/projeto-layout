@@ -1,15 +1,144 @@
 @charset "UTF-8";
 
 @media (min-width:450px) and (max-width:800px) {
+    .logo{
+      margin-left: 30px;  
+    }
+    .menuopen{
+        display: block;
+        width: 40px;
+        margin-right: 30px;
+    }
     nav {
+        display: none;
         position:absolute;
         z-index: 99;
-        background-color: rgba(0, 0, 0,0.8);
+        background-color: rgba(0, 0, 0,0.9);
         width: 70vw;
         height: calc(100vh-100px);
         top: 100px;
         right: 0;
 
     }
-    
+    .menu > nav{
+        flex-direction: column;
+    }
+    .menu > nav > a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 27px;
+        margin-left: 50px;
+        border: 0;
+    }
+    .menu > nav > a:hover {
+        border: 0;
+        color:#b28756;
+        transition: .3s;
+    }
+    .sectionaboutus{
+        flex-direction: column;
+    }
+    .sectionaboutus-left{
+        margin: 30px;
+    }
+    .sectionaboutus-rigth{
+        width: auto;
+    }
+    .sectionservices{
+        flex-wrap: wrap;
+    }
+    .section-service{
+        min-width: 50%;
+        margin-bottom: 20px;
+    }
+    .section-service:first-child{
+        border-left: 0;
+    }
+
+    .sectionteam{
+        max-width: 600px;
+    }
+
+    .sectioncompaniesarea{
+        flex-wrap: wrap;  
+    }
+    .company{
+        min-width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .sectionprice{
+        flex-wrap: wrap; 
+    }
+
+    .priceitem{
+        min-width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .sectionpremium{
+        flex-direction: column;
+    }
+    .sectionpremium-rigth{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .sectionpremium >.slidepointers{
+        display: none;
+    }
+
+    .sectionsome{
+        flex-wrap: wrap;
+    }
+    .section-some{
+        min-width: 50%;
+        margin-bottom: 20px;
+    }
+    .sectionmap{
+        padding-left:30px ;
+        padding-right: 30px;
+    }
+    .sectionmaparea{
+        width: auto;
+    }
+    .sectionmapinfo{
+        width: auto;
+
+    }
+    .sectionmapinfoitem{
+        margin-bottom: 20px;
+    }
+    .sectionmapinfoitem:last-child{
+        margin-bottom: 0;
+    }
+    .areafooter{
+        flex-direction: column;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footeritemarea1{
+        min-width: 50%;
+        
+    }
+    .footeritemarea2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       width: 400px;
+       margin-bottom: 20px;
+        
+    }
+    .footeritemarea3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 50%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        
+    }
+   
+
 }
